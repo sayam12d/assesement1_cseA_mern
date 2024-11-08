@@ -1,0 +1,52 @@
+body {
+    font-family:'Times New Roman', Times, serif;
+    padding: 20px;
+    background-color: wheat;
+}
+
+#resume-builder {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    font-weight: bold;
+}
+#resume-name{
+    margin-left: 33%;
+    color: rgb(69, 69, 221);
+}
+
+input, textarea, button {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+button {
+    cursor: pointer;
+}
+
+#resume {
+    margin-top: 20px;
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+}
+
+#resume img {
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 5%;
+    margin-left: 35%;
+}
+#generate-btn{
+    background-color: blueviolet;
+}
+#tag{
+    margin-left: 25%;
+    color: lightskyblue;
+}
